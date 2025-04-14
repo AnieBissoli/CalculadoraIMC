@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Calculadoraa</string>
+        <!-- Botões -->
+        <string name="btn_calculadora">Calculadora IMC</string>
+        <string name="btn_calcular">Calcular IMC</string>
+        <string name="btn_limpar">Limpar</string>
+        <string name="btn_fechar">Fechar</string>
+
+        <!-- Mensagens -->
+        <string name="mensagem_abaixo_peso">Seu corpo é forte e capaz. Com cuidado e paciência, você pode alcançar o equilíbrio que deseja. Cada passo conta!</string>
+        <string name="mensagem_peso_normal">Manter-se bem é uma vitória diária. Continue se priorizando com leveza e atenção. Seu cuidado consigo é inspirador!</string>
+        <string name="mensagem_sobrepeso">Você é muito mais do que medidas. Com atitude e autocuidado, tudo é possível. Pequenos passos também levam longe!</string>
+        <string name="mensagem_obesidade1">Seu valor não se mede na balança. Respeite seus processos e celebre suas conquistas. Cada avanço é motivo de orgulho!</string>
+        <string name="mensagem_obesidade2">A mudança começa com o primeiro passo. Acredite na sua força e no seu tempo. Você merece saúde e bem-estar!</string>
+        <string name="mensagem_obesidade3">Sua caminhada é única. Cuidar de si é um ato de amor e coragem. Vá com fé: você está construindo uma nova história!</string>
+
+        <!-- Outros -->
+        <string name="logo_da_calculadora">Logo da Calculadora</string>
+        <string name="peso_kg">Peso (kg)</string>
+        <string name="altura_m">Altura (m)</string>
+        <string name="calculadora_imc">Calculadora IMC</string>
+        <string name="logo_da_calculadora_imc">Logo da Calculadora IMC</string>
+        <string name="fechar">Fechar</string>
+        <string name="imagem_abaixo_do_peso">Imagem Abaixo do Peso</string>
+    <string name="texto_imc_formatado">IMC: %1$.2f</string>
+
+</resources>

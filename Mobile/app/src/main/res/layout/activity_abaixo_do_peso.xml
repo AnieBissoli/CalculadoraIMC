@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imagemCategoria"
+            android:layout_width="326dp"
+            android:layout_height="421dp"
+            android:contentDescription="@string/imagem_abaixo_do_peso"
+            android:src="@drawable/abaixo_peso" />
+
+        <TextView
+            android:id="@+id/textoPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cinza_escuro"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textoAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cinza_escuro"
+            android:textSize="18sp" />
+
+        <!-- Adicionado abaixo: -->
+        <TextView
+            android:id="@+id/textoIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cinza_escuro"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textoClassificacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/verde_escuro"
+            android:textSize="20sp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/textoMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/cinza_escuro"
+            android:textSize="16sp"
+            android:text="@string/mensagem_abaixo_peso"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnFechar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/verde_claro"
+            android:text="@string/fechar"
+            app:cornerRadius="8dp"
+            android:textColor="@color/branco" />
+    </LinearLayout>
+</ScrollView>
